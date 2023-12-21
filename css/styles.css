@@ -1,0 +1,21 @@
+body {
+    background-color: #333;
+    color: #fff;
+
+}
+
+.titles {
+    color: aqua;
+}
+
+[href*="#nav"],
+.nav a {
+    color: royalblue;
+}
+
+body {
+    width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+
+}
