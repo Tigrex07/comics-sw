@@ -38,3 +38,12 @@ padding-left: 5px;
 .main dl {
     padding-left: 5px;
 }
+
+.button {
+    background-color:grey;
+    width: 40px;
+    margin: 5px;
+    padding: 5px;
+    color: blue;
+    text-decoration: none;
+}
