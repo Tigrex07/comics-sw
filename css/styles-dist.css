@@ -11,9 +11,13 @@ body {
     margin-left: auto;
 }
 
+.banner {
+    width: 100%;
+}
+
 .nav-li {
     /* list-style: none; */
-    width: 180px;
+    width: 200px;
     height: 20px;
     padding: 0;
     margin-bottom: 5px;
@@ -21,15 +25,18 @@ body {
 
 
 
-.nav-a {
+.header a,
+.main a,
+.iframe a {
     text-decoration: none;
 }
 
-.div-nav {
-    width: 180px;
+.nav-a {
+    width: 200px;
     height: 20px;
     background-color:grey;
     padding-left: 5px;
+    padding-right: 5px;
     color: blue;
     border: 1px solid #000;
 }
@@ -52,7 +59,10 @@ padding-left: 5px;
 
 }
 
-.header p {
+.header p,
+.main dl,
+.main p,
+.iframe p {
     padding-left: 5px;
 }
 .main {
@@ -63,18 +73,34 @@ padding-left: 5px;
     border: 2px solid #000;
 }
 
-.main dl,
-.main p {
-    padding-left: 5px;
-}
 
 .button {
     background-color:grey;
-    width: 40px;
+    width: 50px;
     margin: 5px;
     padding: 5px;
     color: blue;
     text-decoration: none;
     border: 1px solid #000;
+    display: block;
 
+}
+
+.iframe {
+    margin-top: 10px;
+    background-color:#c0c0c0;
+    border-radius: 10px;
+    padding-bottom: 10px;
+    border: 2px solid #000;
+}
+iframe {
+    margin: 5px;
+    width: 99%;
+    height: 300px;
+    border: 2px solid #000;
+
+}
+
+footer {
+    margin-top: 10px;
 }
