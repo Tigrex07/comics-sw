@@ -16,10 +16,6 @@ body {
 }
 
 .nav-li {
-    /* list-style: none; */
-    width: 200px;
-    height: 20px;
-    padding: 0;
     margin-bottom: 5px;
 }
 
@@ -32,13 +28,12 @@ body {
 }
 
 .nav-a {
-    width: 200px;
-    height: 20px;
     background-color:grey;
     padding-left: 5px;
     padding-right: 5px;
     color: blue;
     border: 1px solid #000;
+
 }
 
 .titles {
@@ -76,23 +71,16 @@ padding-left: 5px;
 
 .button {
     background-color:grey;
-    width: 50px;
     margin: 5px;
-    padding: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
     color: blue;
     text-decoration: none;
     border: 1px solid #000;
-    display: block;
+    display:inline-block;
 
 }
 
-.iframe {
-    margin-top: 10px;
-    background-color:#c0c0c0;
-    border-radius: 10px;
-    padding-bottom: 10px;
-    border: 2px solid #000;
-}
 iframe {
     margin: 5px;
     width: 99%;
@@ -103,4 +91,20 @@ iframe {
 
 footer {
     margin-top: 10px;
+}
+
+.icons {
+
+    display:inline-block;
+    width: 30px;
+    height: 30;
+    margin-top: 5px;
+}
+
+.h1-icons {
+    color: #fff;
+    background-color: #333;
+    border-radius: 10px;
+    padding-left: 5px;
+
 }
