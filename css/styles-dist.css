@@ -5,8 +5,10 @@
 body {
 
     background-image: url("/comics-sw/assets/images/background.webp");
-
+    padding-left: 15%;
+    padding-right: 15%;
 }
+
 
 .banner {
     width: 100%;
@@ -43,14 +45,16 @@ padding-left: 5px;
 
 
 
-.header {
+.header,
+.main {
     background-color:#c0c0c0;
     border-radius: 10px;
     padding-bottom: 10px;
     border: 2px solid #000;
-    width: 1000px;
+    /* width: 1000px; *//*new*/
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 10px;
 }
 
 .header p,
@@ -59,16 +63,7 @@ padding-left: 5px;
 .iframe p {
     padding-left: 5px;
 }
-.main {
-    margin-top: 10px;
-    background-color:#c0c0c0;
-    border-radius: 10px;
-    padding-bottom: 10px;
-    border: 2px solid #000;
-    width: 1000px;
-    margin-left: auto;
-    margin-right: auto;
-}
+
 
 
 .button {
